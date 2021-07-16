@@ -29,7 +29,7 @@ import Cart from './Cart'
       </div>
       <div className="row mt-5">
         <div className="col-md-6 col-12">
-          <Cart />
+          <Cart title="By"/>
         </div>
         <div className="col-md-6 col-12">
         <Cart />

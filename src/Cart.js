@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Cart() {
+function Cart({title="To"}) {
     return (
         <div>
-           <p> <b>Billed By</b>   [Your Deatils]</p>  
+           <p> <b>Billed {title}</b>   [Your Deatils]</p>  
            <div class="row bg-white">
     <form class="col s12">
       <div class="row">
